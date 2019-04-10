@@ -1,0 +1,17 @@
+# Ignore everything in the root.
+/*
+
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# track readme.md in the root (i.e. do NOT ignore it)
+!README.md
+
+# track Dockerfile
+!Dockerfile
+
+# track docker compose
+!docker-compose.yml
+
+# track vscode folder
+!.vscode/
