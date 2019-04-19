@@ -17,7 +17,7 @@ The code in this repository has been tested using Windows 10, however the same t
 
 These are the versions of the tools used:
 
-- Visual Studio Code: v1.33.0 | [download](https://code.visualstudio.com/)
+- Visual Studio Code: v1.33.1 | [download](https://code.visualstudio.com/)
 - Xdebug extension for Visual Studio Code (PHP Debug): v1.13.0 | [download](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 - Docker Desktop: 2.0.0.3 (31259) | [download](https://store.docker.com/)
 - Docker compose: v3.7
@@ -49,7 +49,7 @@ Inside the `joomla-xdebug` folder run the following command:
 docker-compose -f docker-compose.yml up
 ```
 
-Wait until the command finishes and then access http://localhost:9090/, this is the url where the Joomla site is running.
+Wait until the command finishes and then access http://localhost:9090/ or https://localhost:9191, those are the urls where the Joomla site is running.
 
 
 **3. Start coding.**

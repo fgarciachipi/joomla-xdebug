@@ -15,3 +15,6 @@
 
 # track vscode folder
 !.vscode/
+
+# track crt folder
+!crt/

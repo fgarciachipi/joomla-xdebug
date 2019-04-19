@@ -3,14 +3,16 @@ version: '3.7'
 services:
 
   joomla:
-    image: fchipi/joomla-xdebug:v1.0.0
+    image: fchipi/joomla-xdebug:v1.1.0
     restart: always
     links:
       - joomladb:mysql
     ports:
       - 9090:80
+      - 9191:443
     environment:
       JOOMLA_DB_HOST: joomladb
+      JOOMLA_DB_USER: root
       JOOMLA_DB_PASSWORD: example
       XDEBUG_CONFIG: remote_host=host.docker.internal
     volumes: 
