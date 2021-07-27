@@ -1,4 +1,4 @@
-FROM joomla:3.9.5-php7.1
+FROM joomla:3.9.5-php7.3
 
 LABEL version="1.1.0"
 LABEL description="Joomla development environment with Xdebug"
