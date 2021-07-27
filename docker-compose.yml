@@ -3,7 +3,7 @@ version: '3.7'
 services:
 
   joomla:
-    image: docker.io/library/joomla-cluster
+    image: penypip/joomla-cluster
     restart: always
     links:
       - joomladb:mysql
