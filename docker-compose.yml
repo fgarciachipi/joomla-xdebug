@@ -3,7 +3,7 @@ version: '3.7'
 services:
 
   joomla:
-    image: fchipi/joomla-xdebug:v1.1.0
+    image: docker.io/library/joomla-cluster
     restart: always
     links:
       - joomladb:mysql
