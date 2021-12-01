@@ -1,6 +1,6 @@
 FROM joomla:3.9.5-php7.1
 
-LABEL version="1.1.0"
+LABEL version="1.1.1"
 LABEL description="Joomla development environment with Xdebug"
 
 ENV XDEBUG_PORT 9000
