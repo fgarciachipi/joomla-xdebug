@@ -1,11 +1,11 @@
 FROM joomla:3.9.5-php7.1
 
-LABEL version="1.1.0"
+LABEL version="1.1.1"
 LABEL description="Joomla development environment with Xdebug"
 
 ENV XDEBUG_PORT 9000
 
-RUN yes | pecl install xdebug \
+RUN yes | pecl install xdebug-2.7.1 \
     && echo "zend_extension=$(find /usr/local/lib/php/extensions/ -name xdebug.so)" > /usr/local/etc/php/conf.d/xdebug.ini \
     && echo "xdebug.remote_enable=1" >> /usr/local/etc/php/conf.d/xdebug.ini \
     && echo "xdebug.remote_autostart=1" >> /usr/local/etc/php/conf.d/xdebug.ini \
